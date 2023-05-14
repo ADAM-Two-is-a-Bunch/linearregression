@@ -3,30 +3,28 @@
 #### Project name: **Simple Linear Regression**
 #### Team members:
 - **Debtanu Ganguly(2204026)**
-- Behnam Ahmadpour(2198220)
 
-## How to run the project
+Project Demo is available at : [LinearRegression_ScatterPlot](https://adam-two-is-a-bunch.github.io/linearregression/)
 
-This project uses [Vite](https://vitejs.dev/)
+## Running the project
 
-First, install dependencies by running:
+Run the [index.html](https://github.com/mylifebuglife/adam-linearregression/blob/master/index.html) and the results will be visualised in the form of scatter plot and Upon moving the mouse over single dots their respective coordinates should be displayed in a small popping up window.
+
+Values to be displayed on the chart can be configured manually in the **data** section of the code.
+Data set by me :
 ```
-npm install
+{
+                    type: 'scatter',
+                    name: 'Observations',
+                    data: [0.5, 2, 3, 3.2, 4.4, 5],
+                    marker: {
+                        radius: 4
+                    }
+                }
 ```
 
-To run a local server type in console:
-```
-npm run dev
-```
+Project Demo is available at : [LinearRegression_ScatterPlot](https://adam-two-is-a-bunch.github.io/linearregression/)
 
-## Other available commands:
-
-```
-npm run build
-```
-```
-npm run preview
-```
 ## About the Project :
 
 **Simple Linear Regression**: 
@@ -95,12 +93,6 @@ and drawing the chart :
 ```
 $('#container').highcharts(json);
 ```
-## Runnning the project
-
-Run the [index.html](/Users/debtanu/Desktop/THB/WS-2022:23/ADAM/LinearRegression/LR/index.html) and the results will be visualised in the form of scatter plot and Upon moving the mouse over single dots their respective coordinates should be displayed in a small popping up window.
-
-Project Demo is available at : [LinearRegression_ScatterPlot](https://adam-two-is-a-bunch.github.io/linearregression/)
-
 
 
 
